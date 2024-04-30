@@ -3,7 +3,7 @@
 
 // Hardware:
 // -ESP32
-// -9G Micro Servo
+// -9g Micro Servo
 // -Pushbutton
 // -BLE Beacon (IBeacon)
 
@@ -12,7 +12,7 @@
 #include <BLEAdvertisedDevice.h>
 #include <BLEDevice.h>
 #include <BLEScan.h>
-#include <Servo.h>
+#include <Servo.h> //ESP Servo Library
 
 //PINS
 const int BuiltInLED = 2;              //Always 2 For Build In LED On Board
